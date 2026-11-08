@@ -1,12 +1,13 @@
 
 @import "tailwindcss";
 
-:root {
-  font-family: Inter, Arial, sans-serif;
-  color: #17251f;
-  background: #f5f5f0;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+@theme {
+  --color-defence: #101f1b;
+  --color-defence-light: #182c25;
+  --color-olive: #52634b;
+  --color-gold: #c7a75b;
+  --color-cream: #f5f5f0;
+  --color-text: #17251f;
 }
 
 * {
@@ -20,12 +21,25 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f0;
+  color: #17251f;
 }
 
-button, a {
+button,
+a {
   cursor: pointer;
 }
 
 a {
   text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+::selection {
+  background: #c7a75b;
+  color: #101f1b;
 }
