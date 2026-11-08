@@ -154,7 +154,7 @@ const modules = {
       },
       {
         title: 'Economy and International Relations',
-        description: 'Study economic developments and India's engagement with the world.',
+        description: "Study economic developments and India's engagement with the world.",
         topics: ['Indian economy', 'India and neighbouring countries', 'Globalisation', 'International organisations'],
       },
       {

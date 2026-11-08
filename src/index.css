@@ -2,12 +2,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-defence: #101f1b;
-  --color-defence-light: #182c25;
+  --color-defence: #101c2b;
+  --color-defence-light: #142438;
+  --color-steel: #344d69;
   --color-olive: #52634b;
-  --color-gold: #c7a75b;
-  --color-cream: #f5f5f0;
-  --color-text: #17251f;
+  --color-gold: #d5ad63;
+  --color-cream: #f3f5f7;
+  --color-text: #17283d;
 }
 
 * {
@@ -21,9 +22,10 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f5f5f0;
-  color: #17251f;
+  background: #ffffff;
+  color: #17283d;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 button,
@@ -35,11 +37,12 @@ a {
   text-decoration: none;
 }
 
-button {
+button,
+input {
   font: inherit;
 }
 
 ::selection {
-  background: #c7a75b;
-  color: #101f1b;
+  background: #d5ad63;
+  color: #101c2b;
 }
